@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginFeature" thread-count="1" parallel="classes" preserve-order="true">
+    <test name="Functional Test">
+        <packages>
+            <package name="test.loginFeature"></package>
+        </packages>
+    </test>
+</suite>
