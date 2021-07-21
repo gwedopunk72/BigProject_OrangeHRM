@@ -3,7 +3,8 @@
 <suite name="LoginFeature" thread-count="1" parallel="classes" preserve-order="true">
     <test name="Functional Test">
         <packages>
-            <package name="test.loginFeature"></package>
+<!--            <package name="test.loginFeature"></package>-->
+            <package name="test.MainMenuFeature"></package>
         </packages>
     </test>
 </suite>
