@@ -1,11 +1,7 @@
 package test.MainMenuFeature;
 
-import Reporter.SendingMail;
-import cn.t.util.email.EmailClientUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import pages.PageChangePassword;
 import pages.PageHome;
@@ -13,13 +9,6 @@ import pages.PageLogin;
 import pages.PageSupport;
 import pages.PageDirectory;
 import pages.PageDashboard;
-
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
-import javax.mail.*;
-import javax.mail.internet.*;
-import javax.sql.DataSource;
-import java.util.Properties;
 
 public class TC00 {
     static WebDriver driver = new ChromeDriver();
